@@ -1,0 +1,20 @@
+{
+    "name": "igorpsantos/barber-api",
+    "description": "API de agendamento de barbearia em PHP puro",
+    "type": "project",
+    "require": {
+        "php": ">=8.4",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BarberApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BarberApi\\Tests\\": "tests/"
+        }
+    }
+}
